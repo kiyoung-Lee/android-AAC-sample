@@ -17,4 +17,11 @@
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
+    <TextView
+        android:id="@+id/data_binding_move_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="데이터 바인딩 테스트"
+        />
+
 </android.support.constraint.ConstraintLayout>

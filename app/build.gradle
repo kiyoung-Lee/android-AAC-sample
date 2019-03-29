@@ -22,6 +22,9 @@ android {
     configurations.all {
         resolutionStrategy.force 'android.arch.lifecycle:extensions:1.1.1'
     }
+    dataBinding {
+        enabled = true
+    }
 }
 
 dependencies {
